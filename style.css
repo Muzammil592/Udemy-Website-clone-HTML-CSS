@@ -1,0 +1,267 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#head{
+    height: 5.2rem;
+    width: 1340px;
+    margin-top: 0px;
+    display: flex;
+}
+#bar{
+    position: absolute;
+    top:0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 1340px;
+    height: 5.2rem;
+    display: flex;
+}
+.text{
+    padding-left: 10px;
+    padding-top: 28px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#search{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: lightgray;
+    height: 50px;
+    width: 550px;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: center;
+     cursor: pointer;
+}
+.cent{
+    margin-top: 0px;;
+    padding-top: 0px;
+    background-image: url('https://img-b.udemycdn.com/notices/web_carousel_slide/image/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 1340px;
+    animation: pic 5s forwards 0.1s infinite normal;
+}
+@keyframes pic{
+   
+    0%{height: 400px; width: 1340px; background-image: url('https://img-b.udemycdn.com/notices/web_carousel_slide/image/09206fc2-d0f1-41f6-b714-36242be94ee7.jpg')}
+    50%{height: 400px; width: 1340px;  background-image: url('https://images.pexels.com/photos/4050470/pexels-photo-4050470.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200')}
+    100%{height: 400px; width: 1340px;  background-image:  url('https://img-b.udemycdn.com/notices/web_carousel_slide/image/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg')}
+}
+.box{
+    display: -webkit-box;
+    
+    height: 170px;
+    width: 450px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 1340px;
+    margin-top: 50px;
+    margin-left: 0px;
+    background-color: lightgray;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    width: 1340px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: lightcyan;
+}
+.python{
+    cursor: pointer;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/498/558/456/win-fail-lose-red-wallpaper-preview.jpg');
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    margin: 20px;
+    height: 380px;
+    width: 300px;
+    border: 2px solid black;
+}
+.cat{
+    cursor: pointer;
+    background-color: whitesmoke;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    height: 250px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    width: 1340px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: white;
+    margin-top: 70px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+   margin-left: 2px;
+    }
+
+button{
+    width: 150px;
+   height: 50px;
+    align-items: center;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+}
+
+.divforlist{
+    display: inline-block;
+}
+#container{
+    padding: 20px 0px 32px;
+    width: 800;
+    height: 200;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+    align-items:first baseline;
+  
+    
+}
+a{
+    color:white;
+    margin-right:   100px;
+    text-decoration:none;
+    line-height: 28px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+#udemyandcopyrightcontainer{
+    position: absolute;
+    top: 486.3vh; right: 400px;
+    left: 400px;
+    bottom: 0px;
+    padding: 20px 0px 32px;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+.contentimage{
+    display: inline-block;
+    margin-right: 100px;
+}
+#imagecontent{
+       width:800px;height: 500px;
+       display:flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin:0 400px;
+ 
+}
+
+#contentcontainer{
+    width:400px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+h1{
+    margin-bottom: 0px;
+    font-size:32px;
+    font-weight:bolder;
+}
+p{
+    font-size:20px;
+    font-weight:normal;
+}
+#btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:35px;
+    width:175px; 
+    font-size:medium;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#btn:hover{
+     border: 2px solid green;
+     cursor: pointer;
+     background-color: #0056b3;
+}
+#componentmargin{
+    width:895 ;
+    height:490 ;
+}
+#sectioncontainer{
+    background-color:whitesmoke;
+    padding:35px 0 50px 50px;
+    width: 895;
+    height: 490 ;
+    font-size: 20px;
+}
+#trendingtopicscontainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-right: 200px;
+    font-size: 20px;
+   
+}
+.subtopics{
+    color:darkblue;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a{
+    color:white;
+    margin-right:   100px;
+    text-decoration:none;
+    line-height: 28px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.numbers{
+    margin-top:0px ;
+} 
+.btn1{
+     color:white;
+     border: 2px solid black; 
+     background-color: black;
+     text-decoration: none;
+     font-weight:bolder;
+}
+
+#btn2{
+    text-decoration: none;
+    padding-left: 35px;
+}
